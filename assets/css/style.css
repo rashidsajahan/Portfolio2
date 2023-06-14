@@ -7,6 +7,7 @@
   --color-base2: #116530; /* Green */
   --color-brand: #21B6A8; /* Blue Green */
   --color-brand2: #A3EBB1;  /* Neon Green */
+  --color-brand3: #04584f;
   --sidebar-width: 240px;
   --font-base: "Bai Jamjuree";
 }
@@ -54,6 +55,10 @@ image {
 
 .text-brand {
   color: var(--color-brand);
+}
+
+.text-brand2 {
+  color: var(--color-brand3);
 }
 
 /* Button */
