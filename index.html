@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rashid Sajahan</title>
+    <link rel="icon"  type="image/x-icon" href="assets/images/profile-img.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+     <!-- Contact Form -->
+
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+     <script>
+       function sendEmail() {
+   Email.send({
+     SecurityToken: "912ac602-ef9c-4da6-b6e9-c5010bbf2186" ,
+     // Host: "smtp.elasticemail.com",
+     // Username: "rashidsajahan22@gmail.com",
+     // Password: "FF29F55B845DEBFE1DE2E6B296172A3594F1",
+     To: "rashidsajahan22@gmail.com",
+     From: document.getElementById("email").value,
+     Subject: "New Contact Form Enquiry",
+     Body:
+       "Name : " +
+       document.getElementById("name").value +
+       "<br> Email : " +
+       document.getElementById("email").value +
+       "<br> Subject : " +
+       document.getElementById("subject").value +
+       "<br> Message : " +
+       document.getElementById("message").value,
+   }).then((message) => alert("Message Sent Successfully!"));
+ }
+ 
+     </script>
+  </head>
+  
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-2" href="#">
+          <span class="h3 fw-bold d-block d-lg-none">Rashid Sajahan</span>
+          <img src="assets/images/profile-img.jpg" class="img-fluid rounded-circle d-none d-lg-block" alt="profile-img"/>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#review">Reveiw</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <div class="col-auto d-lg-block ">
+              <div class="social-icons">
+                  <a href="#"><i class="lab la-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/rashid-sajahan-11a845246?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bvpb4u3NLT%2FuNmeTqUNNKFQ%3D%3D" target="_blank"><i class="lab la-linkedin"></i></a>
+                  <a href="https://github.com/rashidsajahan" target="_blank"><i class="lab la-github"></i></a>
+                  <a href="#"><i class="lab la-facebook"></i></a>
+              </div>
+          </div>
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+    <!-- //Nab bar -->
+
+    <!-- Content wrapper -->
+
+    <div id="content-wrapper">
+      <!-- Home -->
+
+      <section id="home" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-11">
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                I'm <span class="text-brand">Undergraduate Student</span> From
+                Kurunegala, Sri Lanka.
+              </h1>
+              <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
+                I am <span class="text-brand">Rashid Sajahan</span>, And I am
+                undergraduate at IIT. I am passinated with
+                <span class="text-brand">Full Stack Development</span> and
+                <span class="text-brand">DevOps</span>.
+              </p>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand mx-2">Explore My Project</a>
+                <a href="#contact" class="link-custom mx-2">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //Home -->
+
+      <!-- About -->
+
+      <section id="about" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">About</h6>
+              <p>A self-motivated, hardworking Software Engineering undergraduate who is willing to improve the knowledge in software development field. I am eager to utilize given opportunity effectively for passional growth and to contribute in the best possible way for the betterment of the organization. I would describe myself as an open and honest person who doesn't believe in misleading other people and tries to be fair in everything I do.</p>
+              <div data-aos="fade-up" data-aos-delay="300">
+              <h3>Undergraduate</h3>
+              <p>Informatics Institute of Technology Sri Lanka, Collaborated with University of Westminster UK.</p>
+            </div>
+              <div class="row" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-lg-10">
+                  
+                    <p><strong>Birthday : </strong> 2 March 2001</p>
+                    <p><strong>Phone: </strong> +94718511066 </p>
+                    <p><strong>City: </strong> Kurunegala, Sri Lanka </p>
+                    <p><strong>Age: </strong> 22 </p>
+                    <p><strong>Degree: </strong> BEng(Hons) Software Engineering (Reading) </p>
+                    <p><strong>Email: </strong> rashidsajahan22@gmail.com | rashid.20223056@iit.ac.lk </p>
+                
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-10 p-4">
+              <h1>My Skills</h1>
+              <p>As an undergraduate, I am in my beginner level. I have to improve my knowledge. I believe my self learning and self motivating habbits help to learn new things easily.  Some of my tecnical skills are  Java, Python, Web Development (HTML, CSS, JavaScript), NodeJS, NestJS, Microsoft Office, WordPress, Photoshop, JavaFx, Figma, MySql, MongoDB etc...</p>
+            </div>
+            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+              <h5>Java</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" data-aos="fade-right" data-aos-delay="600" role="progressbar" aria-label="Default striped example" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h5>Python</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" data-aos="fade-right" data-aos-delay="600" role="progressbar" aria-label="Success striped example" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h5>HTML, CSS</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" data-aos="fade-right" data-aos-delay="600" role="progressbar" aria-label="Info striped example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h5>JavaScript, NodeJS, NestJS</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" data-aos="fade-right" data-aos-delay="600" role="progressbar" aria-label="Warning striped example" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h5>Figma</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" data-aos="fade-right" data-aos-delay="600" role="progressbar" aria-label="Danger striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>  
+              <h5>JavaFX, MySQL, MongoDB</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped bg-success" data-aos="fade-right" data-aos-delay="600" role="progressbar" aria-label="Default striped example" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h1>My Education</h1>
+            </div>
+          </div>
+
+          <div class="row pb-4 gy-5">
+            <div class="col-lg-6">
+              <!-- <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Education
+              </h3> -->
+              <div class="row gy-4">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>BEng(Hons) Software Engineering</h4>
+                    <p class="text-brand mb-2">
+                      Informatics Institute of Technology collaborated with University of Westminster UK. (2022-2027)
+                    </p>
+                    <p class="mb-0">
+                      I am doing BEng(Hons) Software Engineering at IIT. I have completed first year.
+                      <ul>
+                        Subjects covered: 
+                        <li>Java</li>
+                        <li>Web Development (HTML, CSS, JavaScript)</li>
+                        <li>Python</li>
+                        <li>Mathematics for Computing</li>
+                        <li>JavaFx</li>
+                        <li>Database(Basic)</li>
+                      </ul>
+                      
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>GCE Advanced Level</h4>
+                    <p class="text-brand mb-2">
+                      Ku/Giri/Kekunagolla Central College (NS), Kurunegala (2018-2021)
+                    </p>
+                    <div class="col-10"> 
+                      <ul>
+                        <b>2021 (6909183)</b>
+                        <li class="d-flex justify-content-between"><span>Subject</span> <span>Grade</span></li>
+                        <li class="d-flex justify-content-between"><span>Combined Mathematics:</span> <span>C</span></li>
+                        <li class="d-flex justify-content-between"><span>Chemistry:</span> <span>C</span></li>
+                        <li class="d-flex justify-content-between"><span>Physics:</span> <span>C</span></li>
+                        <li class="d-flex justify-content-between"><span>General English:</span> <span>C</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <!-- <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                Experience
+              </h3> -->
+              <div class="row gy-4">
+
+                <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                  <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>GCE Ordinary Level</h4>
+                    <p class="text-brand mb-2">
+                      Ku/Ibb/An-Noor Central College (NS), Kurunegala (2007-2018)
+                    </p>
+                    <div class="col-10"> 
+                      <ul>
+                        <b>2017 (72476664)</b>
+                        <li class="d-flex justify-content-between"><span>Subject</span> <span>Grade</span></li>
+                        <li class="d-flex justify-content-between"><span>Mathematics:</span> <span>A</span></li>
+                        <li class="d-flex justify-content-between"><span>ICT:</span> <span>A</span></li>
+                        <li class="d-flex justify-content-between"><span>Science:</span> <span>A</span></li>
+                        <li class="d-flex justify-content-between"><span>English:</span> <span>A</span></li>
+                        <li class="d-flex justify-content-between"><span>Sinhala (2nd Language):</span> <span>A</span></li>
+                        <li class="d-flex justify-content-between"><span>Tamil:</span> <span>A</span></li>
+                        <li class="d-flex justify-content-between"><span>History:</span> <span>A</span></li>
+                        <li class="d-flex justify-content-between"><span>Arabic. Lit:</span> <span>A</span></li>
+                        <li class="d-flex justify-content-between"><span>Religion (Islam):</span> <span>A</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!-- //About -->
+
+      <!-- Service -->
+
+      <section id="service" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Sevices</h6>
+              <h1>Services That I Provide</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-feather"></i>
+                </div>
+                <h4 class="mt-4 mb-2">UX Design</h4>
+                <p>
+                  Develop low-fidelity wireframes and high-fidelity wireframes and interactive prototypes to showcase the structure, layout, and functionality of digital interfaces using Figma.
+                </p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-pencil-ruler"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Branding</h4>
+                <p>
+                  Develop unique and cohesive brand identities, including logos, color palettes, typography and visual elements that reflect the essence of a company or product.
+                </p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-laptop-code"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Web Designing</h4>
+                <p>
+                  Create visually appealing and functional websites that align with the client's brand identity, using modern design principles, intuitive navigation, and responsive layouts.
+                </p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //Service -->
+
+      <!-- Work -->
+
+      <section id="work" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Work</h6>
+              <h1>My Recent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/portfolio1.jpg"
+                    class="rounded-4"
+                    alt="project-1"
+                    height="282"
+                    width="100%"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>First Portfolio Page</h4>
+                  <p>
+                    This is my first portfolio. I have created this page using HTML, CSS, JavaScript and Bootstrap.
+                  </p>
+                  <a href="assets/images/portfolio1.jpg" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/vehicleProject.jpg"
+                    class="rounded-4"
+                    alt="project-2"
+                    height="282"
+                    width="100%"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>IIT Vehicle Booking System</h4>
+                  <p>
+                    This is a project which is used to book vehicles for IIT staffs. We have designed the prototype using Figma.
+                  </p>
+                  <a href="assets/images/vehicleProject.jpg" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/island-link.jpg"
+                    class="rounded-4"
+                    alt="project-3"
+                    height="282"
+                    width="100%"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Island Link Web Application</h4>
+                  <p>
+                    This is a group project for CodeSprin7.O which is a competition conducted by IIT. Here We had created a Digital Nomad app from the beggining. 
+                  </p>
+                  <a href="assets/images/island-link.jpg" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/theatre-seat-booking-system.jpg"
+                    class="rounded-4"
+                    alt="project-4"
+                    height="282"
+                    width="100%"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Theatre Seat Booking System</h4>
+                  <p>
+                    This is a command base application which was created to book the seat from online. Here I have created this app using Java.
+                  </p>
+                  <a href="assets/images/theatre-seat-booking-system.jpg" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/python-calculator.jpg"
+                    class="rounded-4"
+                    alt="project-1"
+                    height="282"
+                    width="100%"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Calculator</h4>
+                  <p>
+                    This is my very first project which is a simple command base calculator. I have created this calculator using python. 
+                  </p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/movie-rental.jpg"
+                    class="rounded-4"
+                    alt="project-1"
+                    height="282"
+                    width="100%"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Movie Rental Port</h4>
+                  <p>
+                    This is system which is used add, update the remove from the rental port. I have created this project using Java. 
+                  </p>
+                  <a href="assets/images/movie-rental.jpg" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/module-retriever.jpg"
+                    class="rounded-4"
+                    alt="project-1"
+                    height="282"
+                    width="100%"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Module Retriever</h4>
+                  <p>
+                    This is a command based project which is used to evaluate student using their creditencials. I have implemented this app using Python.
+                  </p>
+                  <a href="assets/images/module-retriever.jpg" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/spotify.jpg"
+                    class="rounded-4"
+                    alt="project-1"
+                    height="282"
+                    width="100%"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Sportify Website</h4>
+                  <p>
+                    This is a sports website which is a group project. We have created this website using HTML, CSS and JavaScript.
+                  </p>
+                  <a href="assets/images/spotify.jpg" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- //Work -->
+
+      <!-- Reviews -->
+
+      <!-- <section id="review" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Reveiw</h6>
+              <h1>What about subscribers says</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="review shadow-effect bg-base p-4 rounded-4">
+                <div class="text-brand h5">
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                </div>
+                <p class="my-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  eum, porro consequatur excepturi beatae culpa voluptatum sint
+                  quas aliquam, odit ab quis recusandae voluptas sit ea ex
+                  corporis sed! Officia.
+                </p>
+                <div class="person mb-0">John Doe</div>
+                <div class="mb-0">Twitter</div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="review shadow-effect bg-base p-4 rounded-4">
+                <div class="text-brand h5">
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                </div>
+                <p class="my-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  eum, porro consequatur excepturi beatae culpa voluptatum sint
+                  quas aliquam, odit ab quis recusandae voluptas sit ea ex
+                  corporis sed! Officia.
+                </p>
+                <div class="person mb-0">John Doe</div>
+                <div class="mb-0">Twitter</div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="review shadow-effect bg-base p-4 rounded-4">
+                <div class="text-brand h5">
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                  <i class="las la-star"></i>
+                </div>
+                <p class="my-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                  eum, porro consequatur excepturi beatae culpa voluptatum sint
+                  quas aliquam, odit ab quis recusandae voluptas sit ea ex
+                  corporis sed! Officia.
+                </p>
+                <div class="person mb-0">John Doe</div>
+                <div class="mb-0">Twitter</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- //Reviews -->
+
+      <!-- Blogs -->
+
+      <!-- <section id="blog" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">Blog</h6>
+              <h1>My Blog Posts</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/blog-post-1.jpg"
+                    class="rounded-4"
+                    alt="blog-1"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">20 Dec, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative landing page using Bootstrap 5
+                  </h5>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/blog-post-2.jpg"
+                    class="rounded-4"
+                    alt="blog-2"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">20 Dec, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative landing page using Bootstrap 5
+                  </h5>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img
+                    src="assets/images/blog-post-3.jpg"
+                    class="rounded-4"
+                    alt="blog-3"
+                  />
+                </div>
+                <div class="card-custom-content p-4">
+                  <p class="text-brand mb-2">20 Dec, 2022</p>
+                  <h5 class="mb-4">
+                    Design a creative landing page using Bootstrap 5
+                  </h5>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- //Blogs -->
+
+      <!-- Contact -->
+
+      <section id="contact" class="full-height px-lg-5">
+        <div class="container">
+
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8 pb-4" data-aos="fade-up">
+                    <h6 class="text-brand">CONTACT</h6>
+                    <h1>Interested in working together? Let's talk
+                    </h1>
+                </div>
+
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+                    <form method="post" onsubmit="sendEmail(); reset(); return false;" class="row g-lg-3 gy-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group col-12">
+                            <input type="text" id="subject" class="form-control" placeholder="Enter subject">
+                        </div>
+                        <div class="form-group col-12">
+                            <textarea name="" id="message" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                        </div>
+                        <div class="form-group col-12 d-grid">
+                            <button type="submit" value="Send Mail" onclick="sendEmail()" class="btn btn-brand">Contact me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+      <!-- //Contact -->
+
+      <!-- Footer -->
+
+      <footer class="py-5 px-lg-5 bg-dark">
+        <div class="container">
+            <div class="row gy-4 d-grid justify-content-center">
+              <div class="col-auto">
+                <p class="mb-0">&copy; Copyright <a href="#" class="fw-bold">RASHID SAJAHAN</a></p>
+            </div>
+                <div class="col-auto">
+                    <p class="mb-0">Designed by <a href="#" class="fw-bold">RASHID SAJAHAN</a></p>
+                </div>
+                <div class="col-auto d-lg-block">
+                  <div class="social-icons">
+                      <a href="#"><i class="lab la-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/rashid-sajahan-11a845246?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bvpb4u3NLT%2FuNmeTqUNNKFQ%3D%3D" target="_blank"><i class="lab la-linkedin"></i></a>
+                      <a href="https://github.com/rashidsajahan" target="_blank"><i class="lab la-github"></i></a>
+                      <a href="#"><i class="lab la-facebook"></i></a>
+                  </div>
+              </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+      <!-- //Footer -->
+
+    </div>
+
+    <!-- //Content wrapper -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
